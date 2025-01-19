@@ -7,15 +7,11 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["docker." + techtao.xyz]: dockerHub,
-  ["quay." + techtao.xyz]: "https://quay.io",
-  ["gcr." + techtao.xyz]: "https://gcr.io",
-  ["k8s-gcr." + techtao.xyz]: "https://k8s.gcr.io",
-  ["k8s." + techtao.xyz]: "https://registry.k8s.io",
-  ["ghcr." + techtao.xyz]: "https://ghcr.io",
-  ["cloudsmith." + techtao.xyz]: "https://docker.cloudsmith.io",
-  ["ecr." + techtao.xyz]: "https://public.ecr.aws",
-
+  "docker.techtao.xyz": "https://registry-1.docker.io",
+  "quay.techtao.xyz": "https://quay.io",
+  "gcr.techtao.xyz": "https://k8s.gcr.io",
+  "k8s-gcr.techtao.xyz": "https://k8s.gcr.io",
+  "ghcr.techtao.xyz": "https://ghcr.io",
   // staging
   ["docker-staging." + techtao.xyz]: dockerHub,
 };
